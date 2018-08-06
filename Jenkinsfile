@@ -10,7 +10,7 @@ pipeline {
         }
         stage('bbbb') {
           steps {
-            error 'oooo'
+            echo 'iiiii'
           }
         }
       }
