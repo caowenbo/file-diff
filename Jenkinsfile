@@ -17,7 +17,6 @@ pipeline {
     }
     stage('cccc') {
       steps {
-        build 'hh'
         echo 'end'
       }
     }
